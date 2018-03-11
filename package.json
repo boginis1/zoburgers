@@ -4,7 +4,8 @@
   "description": "Burgers App",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -25,4 +26,5 @@
     "mysql2": "^1.5.2",
     "sequelize-heroku": "^1.0.0"
   }
+  
 }
